@@ -36,7 +36,7 @@ form{
         width: 80%;
         border: solid #005695 2px;
         border-radius: 20px;
-        padding: 13px;
+        padding-left: 12px;
 
         &::placeholder{
             color: #000000;
@@ -52,4 +52,25 @@ form{
     background-color: #005695;
     color: white;
     cursor: pointer;
+    padding: 0;
+}
+
+@media (max-width: 780px){
+    .queroDoarSection{
+        height: 100vh;
+
+        p{
+            font-size: 18px;
+            width: 70%;
+            text-align: center;
+        }
+    }
+
+    form{
+        width: 80%;
+
+        h2{
+            font-size: 20px;
+        }
+    }
 }

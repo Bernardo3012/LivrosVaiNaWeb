@@ -1,7 +1,7 @@
 
 
 .redes{
-    height: 10vh;
+    height: 12vh;
     background-color: #005695;
     display: flex;
     align-items: center;
@@ -29,5 +29,19 @@
     p{
         width: 100%;
         text-align: center;
+    }
+}
+
+@media (max-width: 780px){
+    .redes{
+        flex-direction: column;
+
+        p{
+            width: 20%;
+        }
+
+        nav{
+            width: 70%;
+        }
     }
 }
